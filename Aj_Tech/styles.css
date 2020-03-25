@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    min-height: 100vh;
+}
+
+.full-height-grow {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    flex-grow: 1;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2.5em;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.btn {
+    color: white;
+    background-color: #A662CF;
+    margin-top: 1em;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-style: .9rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.btn:focus {
+    background-color: skyblue;
+}

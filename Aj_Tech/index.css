@@ -1,0 +1,128 @@
+.home-main-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.home-main-section .img-wrapper {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.home-main-section .boy-image {
+    background-image: url("Logos/boy-image.svg");
+    flex-grow: 1;
+    max-height: 60vh;
+    min-width: 40vw;
+    margin-bottom: 4em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+
+.home-main-section .call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    align-self: center;
+}
+
+.home-page-circle-1 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: rgb(41, 255, 6, .4);
+    bottom: 7vw;
+    left: 6vw;
+    z-index: -1;
+}
+
+.home-page-circle-2 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: rgb(65, 81, 224, .3);
+    top: 37vw;
+    left: 42vw;
+    z-index: -1;
+}
+
+.home-page-circle-3 {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: rgb(224, 65, 65, .2);
+    top: 21vw;
+    left: 50vw;
+    z-index: -1;
+}
+
+.home-page-circle-4 {
+    position: absolute;
+    overflow: hidden;
+    width: 50vw;
+    height: 45vw;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.home-page-circle-4::before {
+    content: '';
+    transform: translate(40%, 40%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+    background-color: rgb(88, 224, 65, .4);
+}
+
+.home-page-circle-5 {
+    position: absolute;
+    overflow: hidden;
+    width: 70vw;
+    height: 43vw;
+    top: 0;
+    margin-top: -200;
+    right: 0;
+    z-index: -1;
+}
+
+.home-page-circle-5::before {
+    content: '';
+    transform: translate(10%,-40%);
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    border-radius:50%;
+    background: linear-gradient(to left,rgba(211, 125, 225, .96),rgba(241, 64, 64, .65));
+}
+
+.home-page-circle-6 {
+    position: absolute;
+    overflow: hidden;
+    width: 10vw;
+    height: 10vw;
+    top: 10em;
+    left: 0;
+    z-index: -1;
+}
+
+.home-page-circle-6::before {
+    content: '';
+    transform: translateX(-15%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius:50%;
+    background-color: rgb(65, 224, 196, .2);
+}
